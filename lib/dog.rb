@@ -10,5 +10,6 @@ class Dog
     @@all.each do|puppy|
       puts puppy.name
     end
+    @@all.clear
   end
 end
